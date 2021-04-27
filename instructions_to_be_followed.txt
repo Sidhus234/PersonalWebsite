@@ -1,0 +1,9 @@
+# Active venv environment
+### Go to the directory and run the command from power shell: venv\Scripts\Activate.ps1
+
+# Define the environment by running: $env:FLASK_APP = "server.py"
+
+# run the app by: python server.py
+
+# To run the app on local host:
+-- python -m flask run
