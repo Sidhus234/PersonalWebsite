@@ -7,3 +7,19 @@
 
 # To run the app on local host:
 -- python -m flask run
+
+## To get requirements file for a project, go to command line, and directory where we were working. Then run the command: pip freeze > requirements.txt
+
+## PythonAnywhere
+-- Open bash, and clone the repositroy from Github (git clone <<HTTPS:>>
+-- Go to this page: https://help.pythonanywhere.com/pages/Flask
+-- Open the bash, and run commands (in order)
+	> mkvirtualenv --python=/usr/bin/python3.6 my-virtualenv  # use whichever python version you prefer
+	> pip install flask
+	> workon my-virtualenv
+-- Go to "web" tab and enter the virtual envrionment (my-virtialenv)
+-- Go to top of the page, and click to reload
+-- after few seconds open the link above this, and it should take you to the website
+-- Go to configuration file
+-- Ensure the sys imports right file (in our case server.py)
+-- Ensure it refers to right location to access that file
